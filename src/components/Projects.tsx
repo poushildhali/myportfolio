@@ -8,33 +8,33 @@ const Projects = () => {
     {
       title: 'News Feed App',
       description: 'A real-time news aggregation platform with personalized feeds, built using React and Node.js. Features include user authentication, category filtering, and responsive design.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-      githubUrl: 'https://github.com/poushil-dhali/news-feed-app',
-      liveUrl: 'https://news-feed-demo.com',
+      technologies: ['ReactJS', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript', 'Firebase FCM', 'WebSpeech API', 'GNews API', 'Google Gemini API', 'Node.js'],
+      githubUrl: 'https://github.com/poushildhali/newsapp',
+      liveUrl: 'https://taazanews.ppg.in.net/',
       image: 'news-app'
     },
     {
       title: 'Movie Recommendation App',
       description: 'AI-powered movie recommendation system using machine learning algorithms. Provides personalized suggestions based on user preferences and viewing history.',
-      technologies: ['Python', 'React', 'scikit-learn', 'PostgreSQL'],
-      githubUrl: 'https://github.com/poushil-dhali/movie-recommender',
-      liveUrl: 'https://movie-rec-demo.com',
+      technologies: ['Axios', 'React', 'Tailwind CSS', 'TMBD API', 'Node.js','React Router'],
+      githubUrl: 'https://github.com/poushildhali/Movie',
+      liveUrl: 'https://poushildhali.github.io/Movie/',
       image: 'movie-app'
     },
     {
       title: 'Weather Forecast App',
       description: 'Comprehensive weather application with 7-day forecasts, location-based services, and interactive maps. Features clean UI and real-time weather updates.',
-      technologies: ['React', 'TypeScript', 'OpenWeather API', 'Tailwind CSS'],
-      githubUrl: 'https://github.com/poushil-dhali/weather-app',
-      liveUrl: 'https://weather-forecast-demo.com',
+      technologies: ['React', 'TypeScript', 'OpenWeather API', ' HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
+      githubUrl: 'https://github.com/poushildhali/world_weather_app',
+      liveUrl: 'https://poushildhali.github.io/world_weather_app/',
       image: 'weather-app'
     },
     {
       title: 'Video Calling App',
       description: 'Real-time video conferencing application with screen sharing, chat functionality, and room management. Built with WebRTC for seamless communication.',
-      technologies: ['React', 'WebRTC', 'Socket.io', 'Node.js'],
-      githubUrl: 'https://github.com/poushil-dhali/video-call-app',
-      liveUrl: 'https://videocall-demo.com',
+      technologies: ['React', 'WebRTC', 'Socket.io', 'Node.js', 'Express', 'HTML', 'CSS', 'JavaScript'],
+      githubUrl: 'https://github.com/poushildhali/face2face.github.io',
+      liveUrl: 'https://poushildhali.github.io/face2face.github.io/',
       image: 'video-app'
     }
   ];

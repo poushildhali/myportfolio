@@ -22,17 +22,17 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/poushil-dhali',
+      url: 'https://www.linkedin.com/in/poushil-dhali-8a2472239/',
       icon: Linkedin
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/poushil-dhali',
+      url: 'https://github.com/poushildhali',
       icon: Github
     },
     {
       name: 'X (Twitter)',
-      url: 'https://x.com/poushil_dhali',
+      url: 'https://x.com/PoushilD',
       icon: Twitter
     }
   ];
@@ -91,7 +91,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-muted-foreground">
               <p>
                 <a href="mailto:poushil.dhali@gmail.com" className="hover:text-primary transition-smooth">
-                  poushil.dhali@gmail.com
+                  dhalipoushil2002@gmail.com
                 </a>
               </p>
               <p>Kolkata, West Bengal, India</p>

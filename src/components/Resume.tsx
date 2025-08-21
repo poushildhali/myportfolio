@@ -48,7 +48,7 @@ const Resume = () => {
                 </Button>
                 
                 <p className="text-sm text-muted-foreground">
-                  Updated: December 2024 • PDF Format • 2 Pages
+                  Updated: June 2025 • PDF Format • 1 Page
                 </p>
               </div>
             </div>

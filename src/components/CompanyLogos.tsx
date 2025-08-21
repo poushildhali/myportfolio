@@ -1,9 +1,11 @@
+import { Card, CardContent } from "@/components/ui/card";
+
 const CompanyLogos = () => {
   const companies = [
-    { name: 'Java, Python, C Language', logo: '💻'},
-    { name: 'HTML, CSS, JavaScript, React, Next', logo: '🌐' },
-    { name: 'SQL, MongoDB, Supabase', logo: '🗄️' },
-    { name: 'Git, Github, Vercel, Netlify', logo: '🔧' }
+    { name: "Java, Python, C Language", logo: "💻" },
+    { name: "HTML, CSS, JavaScript, React, Next", logo: "🌐" },
+    { name: "SQL, MongoDB, Supabase", logo: "🗄️" },
+    { name: "Git, Github, Vercel, Netlify", logo: "🔧" },
   ];
 
   return (
@@ -14,20 +16,22 @@ const CompanyLogos = () => {
             Technologies I Work With
           </p>
         </div>
-        
-        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-60">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {companies.map((company, index) => (
-            <div 
+            <Card
               key={index}
-              className="flex items-center gap-3 hover:opacity-100 transition-smooth group"
+              className="hover:shadow-lg transition-all rounded-2xl"
             >
-              <span className="text-2xl group-hover:scale-110 transition-transform">
-                {company.logo}
-              </span>
-              <span className="text-muted-foreground font-medium hidden md:block">
-                {company.name}
-              </span>
-            </div>
+              <CardContent className="flex flex-col items-center justify-center p-6 space-y-3 text-center">
+                <span className="text-3xl group-hover:scale-110 transition-transform">
+                  {company.logo}
+                </span>
+                <span className="text-muted-foreground font-medium text-sm md:text-base">
+                  {company.name}
+                </span>
+              </CardContent>
+            </Card>
           ))}
         </div>
       </div>
