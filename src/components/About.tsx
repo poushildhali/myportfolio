@@ -5,7 +5,8 @@ import { GraduationCap, Award, Code, Brain } from 'lucide-react';
 const About = () => {
   const skills = [
     'Java', 'Python', 'React', 'Node', 'Next', 'TypeScript', 'SQL',
-    'MongoDB', 'Git', 'AWS', 'Artificial Intelligence', 'Microsoft Office Tools'
+    'MongoDB', 'Git', 'AWS', 'Artificial Intelligence', 'Microsoft Office Tools',
+    'Solidity', 'Ether.js', 'Web3.js'
   ];
 
   const certifications = [
@@ -15,7 +16,7 @@ const About = () => {
   ];
 
   const languages = [
-    'English - Advanced', 'Hindi - Intermidiate', 'Bengali - Native', 'Japanese (JLPT N5)'
+    'English - Advanced', 'Hindi - Intermediate', 'Bengali - Native', 'Japanese (JLPT N5)'
   ];
 
   return (
@@ -41,6 +42,11 @@ const About = () => {
                 Developers (Coursera, 2022), and 3D CAD Fundamentals (Coursera, 2022).
                 <br /><br />
                 Beyond technology, I have a curiosity for AI/ML and Blockchain (Web3) — two areas I believe will shape the future. 
+                My Web3 journey started with learning the basics of blockchain, smart contracts, and Ethereum. Over time, I explored 
+                Solidity, Ether.js, and Web3.js, gradually moving from theory to practice by building small decentralized applications (dApps) 
+                like a decentralized voting system and a crypto wallet. This hands-on approach helped me understand concepts like wallet 
+                integration, gas fees, and smart contract deployment.
+                <br /><br />
                 I’m also a JLPT N5 certified Japanese language learner, which reflects my love for exploring cultures and languages.
                 <br /><br />
                 When I’m not coding, you’ll probably find me playing football or chess, reading novels, or creating melodies on my 
@@ -151,8 +157,13 @@ const About = () => {
               and I enjoy turning clean code into beautiful, responsive designs.
               <br /><br />
               I am also fascinated by the future of Artificial Intelligence, Machine Learning, and Web3 (Blockchain) — 
-              fields that inspire me to keep learning and evolving. Beyond coding, I find joy in solving complex problems, 
-              collaborating with people, and continuously growing as an engineer and as a person.
+              fields that inspire me to keep learning and evolving. In Web3, I aspire to contribute by building 
+              decentralized applications that empower users with transparency, security, and ownership. My current path 
+              involves experimenting with Solidity smart contracts, integrating wallets using Ether.js, and deploying dApps 
+              that can solve real-world problems in finance, voting, and identity systems.
+              <br /><br />
+              Beyond coding, I find joy in solving complex problems, collaborating with people, and continuously growing 
+              as an engineer and as a person.
             </p>
           </Card>
         </div>
