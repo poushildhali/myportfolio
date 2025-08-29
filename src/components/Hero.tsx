@@ -2,7 +2,8 @@
 
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Twitter, ArrowDown } from "lucide-react";
-import profileImage from "@/assets/poushil-profile-2.jpg"; // ✅ this is already a string
+import profileImage from "@/assets/poushil-profile-2.jpg";
+import { Typewriter } from "react-simple-typewriter"; // 👈 Import
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -47,7 +48,17 @@ const Hero = () => {
                 Poushil Dhali
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg mx-auto lg:mx-0">
-                “Hi, I’m Poushil Dhali — a Computer Science graduate and aspiring software engineer passionate about web development, AI, and creating user-focused digital experiences.”
+                <Typewriter
+                  words={[
+                    "Hi, I’m Poushil Dhali — a Computer Science Grad and aspiring software engineer passionate about web development, AI, and creating user-focused digital experiences.",
+                  ]}
+                  loop={1} // type it once
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={60}
+                  deleteSpeed={40}
+                  delaySpeed={1000}
+                />
               </p>
             </div>
 
@@ -90,7 +101,6 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end animate-fadeIn delay-500">
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-hero border-4 border-primary/20">
-                {/* ✅ Use profileImage directly */}
                 <img
                   src={profileImage}
                   alt="Poushil Dhali - Software Engineer"
