@@ -42,7 +42,7 @@ const Projects = () => {
       description: 'A decentralized cryptocurrency wallet built with React and Web3.js. Allows users to send, receive, and store tokens securely with MetaMask integration.',
       technologies: ['React', 'Tailwind CSS', 'Web3.js', 'Ethers.js', 'Solidity', 'Smart Contracts', 'Node.js'],
       githubUrl: 'https://github.com/poushildhali/crypto-wallet', 
-      liveUrl: 'https://poushildhali.github.io/crypto-wallet/', // still building the app
+      liveUrl: 'https://crypto-wallet-three-lime.vercel.app/', // still building the app
       image: 'wallet-app'
     },
     {
