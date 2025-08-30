@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const CompanyLogos = () => {
   const companies = [
     { name: "Java, Python, C Language", logo: "💻" },
-    { name: "HTML, CSS, JavaScript, React, Next", logo: "🌐" },
+    { name: "HTML, CSS, JavaScript, React, React Native Next, Solidity, EtherJS", logo: "🌐" },
     { name: "SQL, MongoDB, Supabase", logo: "🗄️" },
     { name: "Git, Github, Vercel, Netlify", logo: "🔧" },
   ];
