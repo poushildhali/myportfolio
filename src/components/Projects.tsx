@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: 'Weather Forecast App',
       description: 'Comprehensive weather application with 7-day forecasts, location-based services, and interactive maps. Features clean UI and real-time weather updates.',
-      technologies: ['React', 'TypeScript', 'OpenWeather API', ' HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
+      technologies: ['React', 'TypeScript', 'OpenWeather API', 'HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
       githubUrl: 'https://github.com/poushildhali/world_weather_app',
       liveUrl: 'https://poushildhali.github.io/world_weather_app/',
       image: 'weather-app'
@@ -36,6 +36,22 @@ const Projects = () => {
       githubUrl: 'https://github.com/poushildhali/face2face.github.io',
       liveUrl: 'https://poushildhali.github.io/face2face.github.io/',
       image: 'video-app'
+    },
+    {
+      title: 'Crypto Wallet',
+      description: 'A decentralized cryptocurrency wallet built with React and Web3.js. Allows users to send, receive, and store tokens securely with MetaMask integration.',
+      technologies: ['React', 'Tailwind CSS', 'Web3.js', 'Ethers.js', 'Solidity', 'Smart Contracts', 'Node.js'],
+      githubUrl: 'https://github.com/poushildhali/crypto-wallet', 
+      liveUrl: 'https://poushildhali.github.io/crypto-wallet/', // still building the app
+      image: 'wallet-app'
+    },
+    {
+      title: 'Decentralized To-Do List',
+      description: 'Blockchain-based task management application where tasks are stored on-chain, ensuring transparency and immutability. Built using Solidity and Web3.',
+      technologies: ['React', 'Solidity', 'Ethers.js', 'Smart Contracts', 'Tailwind CSS', 'Node.js'],
+      githubUrl: 'https://github.com/poushildhali/To-Do-Dapp', 
+      liveUrl: 'https://poushildhali.github.io/decentralized-todo/', // still building the app
+      image: 'todo-app'
     }
   ];
 
@@ -59,6 +75,8 @@ const Projects = () => {
                     {project.image === 'movie-app' && '🎬'}
                     {project.image === 'weather-app' && '🌤️'}
                     {project.image === 'video-app' && '📹'}
+                    {project.image === 'wallet-app' && '💳'}
+                    {project.image === 'todo-app' && '✅'}
                   </div>
                 </div>
                 
